@@ -1,1 +1,35 @@
-/* No CSS */
+@font-face {
+  font-family: 'Manrope-ExtraBold';
+  font-weight: 800;
+  font-style: normal;
+  src: local("Manrope-ExtraBold");
+  src: url("../fonts/Manrope-ExtraBold.woff2") format("woff2");
+  src: url("../fonts/Manrope-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Manrope-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local("Manrope-Medium");
+  src: url("../fonts/Manrope-Medium.woff2") format("woff2");
+  src: url("../fonts/Manrope-Medium.woff") format("woff");
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.recent-flex {
+  display: flex;
+}
+
+.recent-flex__left {
+  display: flex;
+}
+
+.recent-flex__right {
+  display: flex;
+  flex-wrap: wrap;
+}
